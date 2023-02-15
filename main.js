@@ -11,5 +11,5 @@ footer.style.color = 'white';
 console.log('First paragraph: ', footer)
 
 const elements = document.getElementById("elements");
-elements.style.color = 'green';
+elements.style.color = 'violet';
 console.log('Elements: ', elements)
