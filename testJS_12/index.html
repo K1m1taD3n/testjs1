@@ -1,27 +1,109 @@
+<!--&lt;!&ndash;<!DOCTYPE html>&ndash;&gt;-->
+<!--&lt;!&ndash;<html lang="en">&ndash;&gt;-->
+<!--&lt;!&ndash;<head>&ndash;&gt;-->
+<!--&lt;!&ndash;    <meta charset="UTF-8">&ndash;&gt;-->
+<!--&lt;!&ndash;    <meta http-equiv="X-UA-Compatible" content="IE=edge">&ndash;&gt;-->
+<!--&lt;!&ndash;    <title>Title</title>&ndash;&gt;-->
+<!--&lt;!&ndash;    <link rel="stylesheet" href="styles.css">&ndash;&gt;-->
+<!--&lt;!&ndash;</head>&ndash;&gt;-->
+<!--&lt;!&ndash;<body>&ndash;&gt;-->
+<!--&lt;!&ndash;<div class = "login">&ndash;&gt;-->
+
+<!--&lt;!&ndash;  <form class = "login_form" method="post" action="" id = "add-form">&ndash;&gt;-->
+<!--&lt;!&ndash;      <label>Please login in application</label>&ndash;&gt;-->
+
+<!--&lt;!&ndash;      <div class = "input-box">&ndash;&gt;-->
+<!--&lt;!&ndash;              <input type="text" class = "input_field"placeholder = "Username">&ndash;&gt;-->
+<!--&lt;!&ndash;      </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;      <div class = "input-box">&ndash;&gt;-->
+<!--&lt;!&ndash;              <input placeholder = "E-mail" type= "text" class = "input_field">&ndash;&gt;-->
+<!--&lt;!&ndash;      </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;      <div class = "input-box">&ndash;&gt;-->
+<!--&lt;!&ndash;              <input placeholder = " Password" type="text" class = "input_field">&ndash;&gt;-->
+<!--&lt;!&ndash;      </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <button type = "submit" class = "send-btn">submit</button>&ndash;&gt;-->
+<!--&lt;!&ndash;  </form>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</body>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<script&ndash;&gt;-->
+<!--&lt;!&ndash;         src="main.js">&ndash;&gt;-->
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</html>&ndash;&gt;-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+
+
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name = 'viewport' content ="width=device=width, initial-scale=1.0">-->
+<!--    <title>Website Project</title>-->
+<!--    <link rel="stylesheet" href="styles.css">-->
+<!--</head>-->
+
+<!--<body>-->
+<!--<div class = "container">-->
+<!--    <h1>Sign in </h1>-->
+
+<!--    <form action="" class = "form" id = "add-form">-->
+<!--        <div class = "input-box">-->
+<!--            <input data-required="true" type = "text" class = "input-field" placeholder = "Name">-->
+<!--        </div>-->
+
+<!--        <div class = "input-box">-->
+<!--            <input  minlength="8" type = "text" class = "input-field" placeholder = "Password">-->
+<!--        </div>-->
+
+<!--        <div class = "input-box">-->
+<!--            <input data-required="true" type = "text" class = "input-field" placeholder = "Email">-->
+<!--        </div>-->
+
+<!--        <button type="submit" class = "send-btn">Sign In</button>-->
+<!--    </form>-->
+
+<!--</div>-->
+
+<!--<script defer src = "./main.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = 'viewport' content ="width=device-width, initial-scale=1.0">
+    <title>Website Project</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class = "login">
+<div class="container">
+    <h1>Sign in</h1>
+    <form action="" class="form" id="add-form">
+        <div class="input-box">
+            <input data-required="true" type="text" class="input-field" placeholder="Name">
+        </div>
 
-  <form class = "login_form" method="post" action="">
-      <label>Please login in application</label>
-    <input id="user_id" placeholder="Username" type="user_name" required>
-    <input placeholder="E-mail" type= "e-mail" required>
-    <input placeholder="Password" type="password" required>
-    <button onclick="formSubmitted()" type = "submit">Sign In</button>
-  </form>
+        <div class="input-box">
+            <input data-min-length="8" type="password" class="input-field" placeholder="Password">
+        </div>
 
+        <div class="input-box">
+            <input data-required="true" type="email" class="input-field" placeholder="Email">
+        </div>
+
+        <button type="submit" class="send-btn">Sign In</button>
+    </form>
 </div>
 
+<script src="./main.js"></script>
 </body>
-
-<script
-        src="main.js">
-</script>
-
 </html>

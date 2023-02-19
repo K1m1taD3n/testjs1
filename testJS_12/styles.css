@@ -1,4 +1,15 @@
-.login{
+.error .input-field{
+    border-color: red;
+}
+.error-label{
+    display: block;
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+
+.container{
     border: 1px solid;
     color: darkolivegreen;
     display: flex;
@@ -10,11 +21,32 @@
     align-items: center;
 }
 
-.login_form{
+.form{
     display: flex;
     flex-direction: column;
 }
 
-input{
-    margin-bottom: 15px;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;}
+
